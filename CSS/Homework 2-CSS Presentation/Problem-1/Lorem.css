@@ -1,0 +1,17 @@
+p{
+    font-family: consolas;
+    color: #0094ff;
+    font-size: 24px;
+}
+
+@font-face {
+    font-family: Edward;
+    src: url(ITCEDSCR.TTF)
+}
+p:first-letter{
+    font-family: Edward;
+    font-size: 2em;
+}
+p:first-line{
+    font-weight: 900;
+}

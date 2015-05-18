@@ -1,0 +1,178 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: #F1F1F1;
+
+}
+
+header h2 {
+    top: 0;
+    left: 0;
+}
+
+nav {
+    display: block;
+    position: absolute;
+    margin: 20px 0 0 0;
+}
+
+nav h2 {
+    margin-bottom: 0px;
+    font-weight: 800;
+    font-size: 16px;
+    color: #910D0B;
+}
+
+ul {
+    list-style: none;
+    padding: 0 0 0 0;
+}
+
+a {
+    color: #981D1B
+}
+
+hr {
+    background-color: #909090;
+    height: 1px;
+    border-top: 1px solid #E1E1E1;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+section header {
+    padding-left: 5px;
+}
+
+section article header {
+    background-color: #808080;
+    color: white;
+    text-align: center;
+    margin: 0 10px 0 10px;
+}
+
+aside {
+    display: block;
+    position: absolute;
+    left: 90%;
+    min-width: 189px;
+}
+
+aside header h2 {
+    float: right;
+    font-size: 18px;
+    margin: 0 0 0 5px;
+}
+
+aside form {
+    margin: 19px;
+    display: inline-block;
+}
+
+aside input[type="text"] {
+    width: 100px;
+}
+
+aside input[type="submit"] {
+    width: 30px;
+    border-radius: 5px;
+    border-bottom-style: none;
+
+}
+
+aside section {
+    width: 190px;
+}
+
+aside section article {
+    border: 1px solid #808080;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    margin-bottom: 1px;
+}
+
+#main {
+    display: inline-block;
+    position: absolute;
+}
+
+#main-content {
+    display: block;
+    position: absolute;
+    left: 9%;
+    border: 1px solid #808080;
+    background-color: white;
+    margin: 1px 1px;
+    width: 80.6%;
+}
+
+#main-content p {
+    margin: 0 0 0 10px;
+}
+
+#main-content a {
+    margin: 0 0 0 10px;
+}
+
+#style-button {
+    background-image: url("Untitled2.png");
+    width: 100px;
+    border: none;
+    height: 30px;
+    background-repeat: no-repeat;
+    margin: 3px 20px;
+}
+
+#text-container {
+    display: block;
+    position: relative;
+    top: -90px;
+    left: 110px;
+    width: 350px;
+}
+
+#css-logo {
+    padding: 0 5px 0 5px;
+}
+
+#text-container {
+    font-weight: bold;
+}
+
+.pre-button {
+    background-image: url("Previous-button.png");
+    width: 98px;
+    height: 21px;
+}
+
+.next-button {
+    background-image: url("Next-button.png");
+    width: 100px;
+    height: 21px;
+}
+
+.submit-buttons {
+    background-repeat: no-repeat;
+    background-color: white;
+    border: none;
+}
+
+.side-header {
+    background-color: #808080;
+    color: white;
+    margin: 0 0 0 0;
+    text-align: center;
+}
+
+.header-text {
+    position: relative;
+    top: -45px;
+    left: 20px;
+}
+
+
+
+

@@ -1,0 +1,43 @@
+body {
+    background-color: #A9A9A9;
+}
+
+h1, nav > ul > li > a {
+    color: #FFFFFF;
+}
+
+body > header > h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+article > header > h1 {
+    font-size: 30px;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav > ul {
+    text-align: center;
+}
+
+nav > ul > li > a:hover {
+    background-color: #D3D3D3;
+}
+
+/* I am well  aware of class current in the html <li>
+ but I wanted to use hover so that all menu items will have different color on hover....*/
+
+nav > ul > li:last-of-type a {
+    text-decoration: underline;
+}
+article > footer{
+    font-size: 15px;
+}
+footer {
+    font-size: 17px;
+}

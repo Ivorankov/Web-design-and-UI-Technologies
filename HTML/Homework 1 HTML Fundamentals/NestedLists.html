@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Nested Lists</title>
+    <style>
+        .bold{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<p>Preceding Text</p>
+<ol type="I" class="bold">
+    <li>List item 1</li>
+    <ol type="a">
+        <li>Nested item 1.1</li>
+        <li>Nested item 1.2</li>
+    </ol>
+    <li>List item 2</li>
+    <ol type="1">
+        <li>Nested item 2.1</li>
+        <li>Nested item 2.2</li>
+        <ol type="circle">
+            <li>Nested item 2.2.1</li>
+            <li>Nested item 2.2.2</li>
+            <ol type="square">
+                <li>Nested item 2.2.2.1</li>
+                <li>Nested item 2.2.2.2</li>
+            </ol>
+            <li>Nested item 2.2.3</li>
+        </ol>
+        <li>Nested item 2.3</li>
+    </ol>
+    <li>List item 3</li>
+    <ol>
+        <li>Nested item 3.1</li>
+        <li>Nested item 3.2</li>
+        <li>Nested item 3.3</li>
+    </ol>
+</ol>
+</body>
+</html>

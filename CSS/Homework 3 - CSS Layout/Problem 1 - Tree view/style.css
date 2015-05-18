@@ -1,0 +1,13 @@
+ul {
+    list-style: none;
+    text-decoration: underline;
+}
+
+li:hover .submenu {
+    display: block;
+}
+
+.submenu {
+    display: none;
+}
+

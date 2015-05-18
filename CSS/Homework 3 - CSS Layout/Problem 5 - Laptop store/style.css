@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+#wrapper {
+    width: 685px;
+    margin: 0;
+    padding: 0;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+#wrapper nav ul {
+    list-style: none;
+    margin: 5px 20px;
+    padding-left: 135px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+}
+#wrapper nav ul li {
+    display: inline-block;
+}
+#wrapper nav ul li a {
+    color: #25B9F1;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+#wrapper #mac-books {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 5px;
+    border: 2px solid black;
+    width: 65%;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+#wrapper #mac-books fieldset {
+    display: inline-block;
+    border: 2px solid black;
+    margin-left: 5px;
+    padding: 5px;
+    padding-bottom: 0;
+    width: 44%;
+}
+#wrapper #mac-books fieldset .first-stat {
+    margin-top: 15px;
+}
+#wrapper #mac-books fieldset .last-stat {
+    margin-left: 20px;
+}
+#wrapper #mac-books fieldset p {
+    display: inline-block;
+    margin: 5px 0;
+}
+#wrapper #mac-books fieldset img {
+    position: relative;
+    float: left;
+    top: -15px;
+}
+#wrapper #mac-books fieldset legend {
+    font-size: 1.2em;
+    padding: 5px;
+    text-align: center;
+    margin: 7px;
+}
+#wrapper #range {
+    display: inline-block;
+    vertical-align: top;
+    width: 32%;
+    padding-top: 65px;
+}
+#wrapper #range div {
+    margin: 0;
+    margin-left: 15px;
+}
+#wrapper #range div p {
+    display: inline-block;
+    font-size: 1.4em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#wrapper #range div input {
+    margin-left: 10px;
+    width: 160px;
+}

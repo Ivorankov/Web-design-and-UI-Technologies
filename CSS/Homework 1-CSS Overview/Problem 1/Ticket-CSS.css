@@ -1,0 +1,30 @@
+#green-dot{
+    font-size: 30px;
+    color: #71B47A
+}
+#supportStatus{
+    color:#D90E07
+}
+body{
+    background-color: #595959
+}
+table {
+    padding: 7px
+}
+.yellow-text{
+    color: #E2D988;
+    text-decoration: none;
+}
+#ticket, .gray-text{
+    color:#A5A69A
+}
+.orange-text{
+    color:#E46B1E
+}
+#ticket{
+    font-weight: normal;
+}
+.side-text{
+    color: #FFFFFF;
+    font-style: italic;
+}

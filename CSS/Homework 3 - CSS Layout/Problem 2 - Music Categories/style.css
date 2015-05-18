@@ -1,0 +1,53 @@
+body {
+    background-color: #EEEEEE;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+article {
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 40px;
+    border: 1px solid black;
+}
+
+.listen-button {
+    background-image: url("Listen.png");
+    width: 77px;
+    height: 25px;
+}
+
+.add-button {
+    background-image: url("Add.png");
+    /* In order to save some space only one img is used(and I was a bit lazy as well..:P*/
+    width: 61px;
+    height: 25px;
+}
+
+.img-location {
+    display: inline-block;
+    margin: 15px 15px 15px 15px;
+}
+
+p {
+    display: inline-block;
+    width: 200px;
+    position: relative;
+    top: -55px;
+
+}
+
+span {
+    font-weight: bold;
+}
+
+.buttons-location {
+    position: relative;
+    top: -55px;
+    left: 260px;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Registration form</title>
+    <style>
+        .cell{
+            vertical-align: middle;
+            text-align: center;
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+<form name="dataSheet" method="get" action="https://www.google.bg">
+<table cellpadding="5" cellspacing="0" border="1" style="border-collapse: collapse">
+    <tr>
+        <td><strong>Last Name</strong></td>
+        <td><input type="text" name="LastName" placeholder="Enter last name"/></td>
+    </tr>
+    <tr>
+        <td><strong>First Name</strong></td>
+        <td><input type="text" name="FirstName" placeholder="Enter first name"/></td>
+    </tr>
+    <tr>
+        <td><strong>Address</strong></td>
+        <td><textarea name="Address"></textarea></td>
+    </tr>
+    <tr>
+        <td><strong>City</strong></td>
+        <td><input type="text" name="City" placeholder="Enter City"/>
+            State<input type="text" name="State" placeholder="Enter State"/>
+        </td>
+    </tr>
+    <tr>
+        <td><strong>Zip/Postal Code</strong></td>
+        <td><input type="text" name="ZipCode" placeholder="Enter ZIP code"/></td>
+    </tr>
+    <tr>
+        <td><strong>Country</strong></td>
+        <td>
+            <select name="countries">
+                <option value="val 1" selected="selected">Bulgaria</option>
+                <option value="val 2" selected="selected">Botswana</option>
+                <option value="val 3" selected="selected">China</option>
+                <option value="val 4" selected="selected">Denmark</option>
+                <option value="val 5" selected="selected">Estonia</option>
+                <option value="val 6" selected="selected">France</option>
+                <option value="val 7" selected="selected">Germany</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td><strong>Phone(country code,<br/> area code,number)</strong></td>
+        <td>(+<input type="tel" name="CCode" placeholder="Enter country code"/>)
+            <input type="tel" name="ACode" placeholder="Enter area code"/>
+            <input type="tel" name="number" placeholder="Enter phone number"/>
+        </td>
+    </tr>
+    <tr>
+        <td><strong>E-mail</strong></td>
+        <td><input type="email" name="EMail" placeholder="Enter e-mail"/></td>
+    </tr>
+    <tr>
+        <td><strong>Birth date</strong></td>
+        <td><input type="date" name="BirthDate" placeholder="DD/MM/YYYY"/></td>
+    </tr>
+    <tr>
+        <td><strong>Gender</strong></td>
+        <td>
+            <select name="gender">
+                <option value="val 1">Male</option>
+                <option value="val 1">Female</option>
+                <option value="val 1">Half man half woman thing</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td><strong>Starting date</strong></td>
+        <td>
+            Spring 2015<input type="radio" name="date" value="Spring 2015"/>
+            Summer 2015<input type="radio" name="date" value="Summer 2015"/>
+        </td>
+    </tr>
+    <tr>
+        <td><strong>Comments/Questions</strong></td>
+        <td><textarea name="Comment"></textarea></td>
+    </tr>
+    <tr>
+        <td colspan="2" class="cell">
+            <input type="submit" name="submit" value="Submit"/>
+            <input type="reset" name="Reset" value="Clear this form"/>
+        </td>
+    </tr>
+</table>
+</form>
+</body>
+</html>
