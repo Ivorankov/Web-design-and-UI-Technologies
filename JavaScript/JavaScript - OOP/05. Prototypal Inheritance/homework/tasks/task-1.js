@@ -63,24 +63,22 @@
 function solve() {
     var domElement = (function () {
         function validateType(string) {
-            var isValidType = true;
             var name = string.toUpperCase();
             for (var i = 0; i < name.length; i += 1) {
                 if (name.charCodeAt(i) < 48 || name.charCodeAt(i) > 57) {
-                    isValidType = false;
+
                 } else {
                     continue;
                 }
                 if (name.charCodeAt(i) >= 65 && name.charCodeAt(i) <= 90) {
-                    isValidType = true;
-                }
-                if (!isValidType) {
+
+                } else {
                     throw new Error('Invalid Type name');
                 }
             }
         }
 
-        //This function is like the above only its optimised(and the annoying check for '-' is added) :P
+        //This function is like the above only the annoying check for '-' is added :P
         function validateAttributeName(string) {
             var isValidName = true;
             var name = string.toUpperCase();
@@ -145,15 +143,16 @@ function solve() {
 
         //Parses the full content => parent - children
         function parseFullHTML(domObject, inRecursion) {
-            var result = '',
-                hasParent = false;
-            if (!isEmpty(domObject.parent)) {
-                hasParent = true;
-            }
             function generateClosingTag(domElement) {
                 var result = '';
                 result += '</' + domElement.type + '>';
                 return result;
+            }
+
+            var result = '',
+                hasParent = false;
+            if (!isEmpty(domObject.parent)) {
+                hasParent = true;
             }
 
             result += parseHTML(domObject);
@@ -232,7 +231,7 @@ function solve() {
         };
         domElement.prototype.removeAttribute = function (attribute) {
             for (var name in this.attributes) {
-                if(this.attributes.hasOwnProperty(name)){
+                if (this.attributes.hasOwnProperty(name)) {
                     if (name === attribute) {
                         delete this.attributes[name];
                         return this;
