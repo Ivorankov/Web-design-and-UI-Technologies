@@ -17,13 +17,13 @@ function solve() {
             return student.firstName < student.lastName;
         });
 
-        var sorted = _.chain(filtered)
+        var sortedStudents = _.chain(filtered)
             .sortBy('lastName')
             .sortBy('firstName')
             .reverse()
             .value();
 
-        _.each(sorted, function (person) {
+        _.each(sortedStudents, function (person) {
             console.log(person.firstName + ' ' + person.lastName)
         });
     };

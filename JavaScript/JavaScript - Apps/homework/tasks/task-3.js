@@ -21,11 +21,11 @@ function solve() {
     }
 
     return function (students) {
-        var filtered = _.sortBy(students, function (student) {
+        var sortedStudents = _.sortBy(students, function (student) {
             return calcAverageScore(student);
         });
 
-        var topStudent = _.last(filtered);
+        var topStudent = _.last(sortedStudents);
 
         console.log(
             topStudent.firstName

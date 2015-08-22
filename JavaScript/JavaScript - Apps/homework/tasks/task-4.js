@@ -28,8 +28,6 @@
 function solve() {
     var _ = require('underscore');
     function printObjectToConsole(animals){
-        var result = '';
-
         _.each(animals, function(val, key){
             var separator = new Array(key.length + 2).join('-');
             console.log(separator);
@@ -39,11 +37,10 @@ function solve() {
                 console.log(item.name + ' has ' + item.legsCount + ' legs');
             });
         });
-        return result ? result : [];
     }
     return function (animals) {
 
-        var grouped = _.chain(animals)
+        var groupedAnimals = _.chain(animals)
             .sortBy('name')
             .sortBy('legsCount')
             .reverse()
@@ -52,7 +49,7 @@ function solve() {
             .groupBy('species')
             .value();
 
-        printObjectToConsole(grouped);
+        printObjectToConsole(groupedAnimals);
     };
 }
 

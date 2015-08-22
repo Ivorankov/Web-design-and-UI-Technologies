@@ -15,12 +15,12 @@ function solve() {
             return 18 <= student.age && student.age <= 24
         });
 
-        var sorted = _.chain(filtered)
+        var sortedStudents = _.chain(filtered)
             .sortBy('lastName')
             .sortBy('firstName')
             .value();
 
-        _.each(sorted, function (person) {
+        _.each(sortedStudents, function (person) {
             console.log(person.firstName + ' ' + person.lastName)
         });
     };
